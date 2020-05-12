@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Skrá</title>
+</head>
+    <h1>
+        <a class="link" href="index.html"> Tafla</a>
+    </h1>
+<body>
+    <div class="register">
+        <form action="#" method="GET">
+        <fieldset>
+        <legend>Upplýsingar um tölfuna þína</legend>
+        <label class="tafla">
+            Nafnið þitt:
+            <input type="text" name="nafn" placeholder="Fullt nafn" required="" autofocus="" title="Vinsamlegast skráið nafn" > 
+        </label>
+        <label class="tafla">
+            Notenda Nafn:
+            <input type="text" name="nafn" placeholder="Notendanafn" required="" autofocus="" title="Vinsamlegast skráið notenda nafn" minlength="5" maxlength="16"> 
+        </label>
+        <label class="tafla">
+            Símanúmer:
+            <input type="text" name="sími" placeholder="sími þinn" title="skráið íslenskt Símanúmer" required="" pattern="\d{3}(?:[\-\s]?)\d{4}" >
+        </label>    
+        <label class="tafla">
+            Tölvupóstur:
+            <input type="email" name="tölvupóstur" placeholder="Tölvupóstur" required="" >
+            </label>
+        <label class="tafla">
+            Fæðingarár:
+            <input type="date" name="fædd/ur" required="" >
+        </label>
+        <br />
+        <label class="tafla">
+            Hvernig var maturinn:
+            <select name="fjöldi">
+                <option value="1" selected="">Hræðilegur</option>
+                <option value="2">Mjög Vondur</option>
+                <option value="3">Vondur</option>
+                <option value="4">Allt í lagi</option>
+                <option value="5">Fínn</option>
+                <option value="6">Góður</option>
+                <option value="7">Mjög Góður</option>
+                <option value="8">Æðislegur</option>
+            </select>
+        </label>
+        <br />
+        <label class="tafla">
+        <br />
+            Eitthverjar kvartarnir um maturinn:
+            <textarea rows="4" name="Athugasemdir"></textarea>
+        </label>
+            <input class="tafla" type="submit" name="submit" value="Skrá" />
+        </fieldset>
+        </form>
+        </div>
+        <h3>Hákon Garðarsson</h3>
+    
+</body>
+</html>
